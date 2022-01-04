@@ -1,0 +1,184 @@
+#black-bg{
+    background-color: black;
+    padding: 50px;
+    margin: 50px;
+    width: 1150px;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+} 
+
+
+
+
+/* Buttons */
+.buttons, .text, .round{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.buttons{
+    font-size: 27px;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    align-content: space-around;
+}   
+
+.rock, .paper, .scissors{
+    margin: 30px;
+}
+
+.buttons:hover{
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+.buttons:active{
+    background-color: #777777;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+
+/* Start-Of-Game */
+.title{
+    font-size: 45px;
+    top: 25%;
+    left: 25%;
+    position: absolute;
+} 
+
+.start{
+    font-size: 25px;
+    width: 350px !important;
+    top: 60%;
+    left: 35%;
+    z-index: 100;
+    position: absolute;
+}
+
+.created{
+    top: 88%;
+    left: 80%;
+    position: absolute;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+
+
+
+/* Mid-Game */
+.choose{
+    font-size: 45px;
+    top: 20%;
+    left: 43%;
+    position: absolute;
+}
+
+.mainButtons{
+    top: 50%;
+    left: 25%;
+    position: absolute;
+}
+
+
+
+
+
+/* Pictures */
+.picture{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.userPicture{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+}
+
+.compPicture{
+    position: absolute;
+    top: 25%;
+    left: 72%;
+}
+
+
+
+
+
+/* Other */
+.compChoice{
+    position:absolute;
+    font-size: 25px !important;
+    top: 10%;
+    left: 65%;
+}
+
+.userChoice{
+    position:absolute;
+    font-size: 25px !important;
+    top: 10%;
+    left: 17%
+}
+
+.userPoints{
+    font-size: 13px !important;
+    position: absolute;
+    top: 86%;
+    left: 2%;
+}
+
+.compPoints{
+    position: absolute;
+    font-size: 13px !important;
+    top: 90%;
+    left: 2%;
+}
+
+
+
+
+
+/* End-Of-Game */
+
+.endButtons{
+    display:flex;
+    align-content: space-around;
+    top: 80%;
+    left: 35% !important;
+    position: absolute;  
+}
+
+.next, .end{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;  
+}
+
+.outcome{
+    font-size: 30px;
+}
+
+.winner{
+    font-size: 20px;
+}
+
+.thanks{
+    font-size: 45px;
+    top: 35%;
+    left: 30%;
+    position: absolute;
+} 

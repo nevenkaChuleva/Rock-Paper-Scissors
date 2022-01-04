@@ -1,0 +1,69 @@
+<!DOCtype html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        
+        <div id="black-bg">
+            
+            <div id="start-of-game"  style="display: block;">
+                <p class="text title"> ROCK, PAPER, SCISSORS! </p> 
+                <button class="buttons start"> Start Game </button>
+                <p class="text created"> Created by: Nevenka Chuleva</p>  
+            </div>
+
+            <div id="mid-game" style="display: none;">
+                <p class="text choose"> Choose: </p>
+
+                <div class="mainButtons">
+                <button class="buttons rock" > Rock </button>
+                <button class="buttons paper" > Paper </button>
+                <button class="buttons scissors" > Scissors </button> 
+                </div>
+            </div>
+
+            <div id="end-game" style="display: none;">
+                 <div class="userPicture" > 
+                    <img src="assets/rock.jpg" alt="picture-of-a-rock" class="picture userRock" style="display: none;" >
+                    <img src="assets/paper.jpg" alt="picture-of-a-paper" class="picture userPaper" style="display: none;"> 
+                    <img src="assets/scissors.jpg" alt="picture-of-a-scissors" class="picture userScissors" style="display: none;">  
+                </div>
+            
+                <div class="compPicture">
+                    <img src="assets/rock.jpg" alt="picture-of-a-rock" class="picture compRock" style="display: none;">
+                    <img src="assets/paper.jpg" alt="picture-of-a-paper" class="picture compPaper" style="display: none;">
+                    <img src="assets/scissors.jpg" alt="picture-of-scissors" class="picture compScissors" style="display: none;">
+                </div>  
+                
+                
+                <p class="text userChoice" > You chose: </p>
+                <p class="text compChoice" > The computer chose: </p>
+                
+                <div class="endRound firstPart" > 
+                    <p class="text outcome"> </p>
+                    <p class="text winner"> </p>
+                </div>
+                
+                
+                <div class="endRound secondPart"> 
+                    <div class="endButtons">
+                        <button class="buttons next"> Next round</button> 
+                        <button class="buttons end"> End </button> 
+                    </div> 
+                </div>
+       
+                <p class="text userPoints"> </p>
+                <p class="text compPoints"></p>   
+            </div>  
+
+            <p class="text thanks"  style="display: none;"> Thank you for playing! </p>
+            
+        </div> 
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
